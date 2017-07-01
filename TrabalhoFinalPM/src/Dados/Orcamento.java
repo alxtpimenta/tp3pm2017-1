@@ -11,5 +11,13 @@ package Dados;
  */
 public class Orcamento 
 {
-    
+    private int _cargaHoraria;
+    private int _precoPorHora;
+    private double _valorMateriais;
+    private double _valorTotal;
+    private String _descricaoMateriais;
+    private String _solicitacao;
+    private String _nomeFuncionario;
+    private String _nomeCliente;
+    private String _cpfCliente;
 }

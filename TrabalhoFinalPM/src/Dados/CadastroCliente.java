@@ -11,8 +11,36 @@ package Dados;
  */
 public class CadastroCliente extends Cadastro 
 {
-    protected String nome;
-    protected int cpf;
-    protected String email;
-    protected int telefone;
+    private final String _nome;
+    private final int _cpf;
+    private final String _email;
+    private final int _telefone;
+    
+    public CadastroCliente(String nome, int cpf, String email, int telefone)
+    {
+        this._cpf = cpf;
+        this._nome = nome;
+        this._telefone = telefone;
+        this._email = email;
+    }
+    
+    public String getNome()
+    {
+        return this._nome;
+    }
+    
+    public int getCPF()
+    {
+        return this._cpf;
+    }
+    
+    public int getTelefone()
+    {
+        return this._telefone;
+    }
+    
+    public String getEmail()
+    {
+        return this._email;
+    }
 }

@@ -10,5 +10,10 @@ package Dados;
  * @author alex
  */
 public abstract class Cadastro {
-    protected int matricula;
+    protected int _matricula;
+    
+    public int getMatricula()
+    {
+        return this._matricula;
+    }
 }
